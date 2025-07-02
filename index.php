@@ -109,11 +109,33 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-envelope fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">البريد الإلكتروني</p><a href="mailto:info@leonresourt.com" class="font-semibold hover:text-primary transition" dir="ltr">info@leonresourt.com</a></div></div>
                     <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-phone fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">للحجز والاستفسار</p><a href="tel:+966539396664" class="font-semibold hover:text-primary transition" dir="ltr">+966 539 396 664</a></div></div>
-                    <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-clock fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">أوقات الدخول</p><p class="font-semibold">من 2 ظهراً إلى 12 ظهراً</p></div></div>
+                    <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-clock fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">أوقات العمل</p><p class="font-semibold">وقت الدخول 4 الخروج 10</p></div></div>
                     <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-map-marker-alt fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">الموقع</p><p class="font-semibold">طريق المدينه - خلف محطة ساسكو</p></div></div>
                 </div>
             </section>
+<!-- ======================================================= -->
+<!--             **NEW**: Video Tour Section                 -->
+<!-- ======================================================= -->
+<section class="fade-in mb-12">
+    <!-- Section Title with Reveal Animation -->
+    <div class="reveal-container mb-6">
+        <h2 class="reveal-item text-2xl md:text-3xl font-bold">جولة في المنتجع</h2>
+        <div class="reveal-cover"></div>
+    </div>
 
+    <!-- Responsive Video Container -->
+    <div class="rounded-2xl overflow-hidden border-2 border-gray-700 aspect-video">
+        <iframe 
+            class="w-full h-full" 
+            src="https://www.youtube.com/embed/6KJbc9Zg3lw" 
+            title="منتجع ليون 🏠 للحجز 0539396664 ‭☎️‬" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>        
             <section class="fade-in mb-12">
                 <div class="reveal-container mb-6"><h2 class="reveal-item text-2xl md:text-3xl font-bold">موقعنا على الخريطة</h2><div class="reveal-cover"></div></div>
                 <div class="rounded-2xl overflow-hidden border-2 border-gray-700"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.644374376216!2d36.75428670000001!3d28.490254699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15a849e44b2ed73d%3A0x18a15b889aa1897d!2z2YTZitmI2YYg2LTYp9mE2YrYqQ!5e0!3m2!1sar!2seg!4v1751474605154!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
@@ -135,12 +157,56 @@
             </section>
 
             <section class="fade-in">
-                <div class="reveal-container mb-6 text-center"><h2 class="reveal-item text-2xl md:text-3xl font-bold">أهم المرافق والخدمات</h2><div class="reveal-cover"></div></div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="p-6 bg-[#2a2a2a] rounded-3xl text-center border-2 border-transparent hover:border-primary transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg"><i class="pulse-icon fa-solid fa-person-swimming fa-3x mx-auto mb-4 text-primary"></i><h3 class="text-xl font-bold mb-2">مسبح خاص</h3><p class="text-gray-400 text-sm">استمتع بخصوصية تامة في مسبح كبير ونظيف مع إطلالة رائعة.</p></div>
-                    <div class="p-6 bg-[#2a2a2a] rounded-3xl text-center border-2 border-transparent hover:border-primary transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg"><i class="pulse-icon fa-solid fa-chair fa-3x mx-auto mb-4 text-primary"></i><h3 class="text-xl font-bold mb-2">جلسات خارجية</h3><p class="text-gray-400 text-sm">مساحات خضراء وجلسات مصممة بعناية للاسترخاء والهواء الطلق.</p></div>
-                </div>
-            </section>
+    <div class="reveal-container mb-6 text-center">
+        <h2 class="reveal-item text-2xl md:text-3xl font-bold">أهم المرافق والخدمات</h2>
+        <div class="reveal-cover"></div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- الخدمة 1: مسبح خاص -->
+        <div class="p-6 bg-[#2a2a2a] rounded-3xl text-center border-2 border-transparent hover:border-primary transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg">
+            <i class="pulse-icon fa-solid fa-person-swimming fa-3x mx-auto mb-4 text-primary"></i>
+            <h3 class="text-xl font-bold mb-2">مسبح خاص</h3>
+            <p class="text-gray-400 text-sm">استمتع بخصوصية تامة في مسبح كبير ونظيف مع إطلالة رائعة.</p>
+        </div>
+
+        <!-- الخدمة 2: شاليهات عرسان -->
+        <div class="p-6 bg-[#2a2a2a] rounded-3xl text-center border-2 border-transparent hover:border-primary transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg">
+            <i class="pulse-icon fa-solid fa-heart fa-3x mx-auto mb-4 text-primary"></i>
+            <h3 class="text-xl font-bold mb-2">شاليهات عرسان</h3>
+            <p class="text-gray-400 text-sm">تجهيزات خاصة وأجواء رومانسية لتبدأوا حياتكم الجديدة بذكريات لا تُنسى.</p>
+        </div>
+
+        <!-- الخدمة 3: ركن شواء -->
+        <div class="p-6 bg-[#2a2a2a] rounded-3xl text-center border-2 border-transparent hover:border-primary transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg">
+            <i class="pulse-icon fa-solid fa-fire-burner fa-3x mx-auto mb-4 text-primary"></i>
+            <h3 class="text-xl font-bold mb-2">ركن شواء</h3>
+            <p class="text-gray-400 text-sm">مساحة مجهزة بالكامل للاستمتاع بحفلات الشواء مع العائلة والأصدقاء.</p>
+        </div>
+
+        <!-- الخدمة 4: ألعاب مائية -->
+        <div class="p-6 bg-[#2a2a2a] rounded-3xl text-center border-2 border-transparent hover:border-primary transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg">
+            <i class="pulse-icon fa-solid fa-water-ladder fa-3x mx-auto mb-4 text-primary"></i>
+            <h3 class="text-xl font-bold mb-2">ألعاب مائية</h3>
+            <p class="text-gray-400 text-sm">منطقة آمنة وممتعة للأطفال والكبار لإضافة المزيد من المرح إلى إقامتكم.</p>
+        </div>
+
+        <!-- الخدمة 5: قسم للمناسبات -->
+        <div class="p-6 bg-[#2a2a2a] rounded-3xl text-center border-2 border-transparent hover:border-primary transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg">
+            <i class="pulse-icon fa-solid fa-cake-candles fa-3x mx-auto mb-4 text-primary"></i>
+            <h3 class="text-xl font-bold mb-2">قسم للمناسبات</h3>
+            <p class="text-gray-400 text-sm">قاعة مجهزة لاستضافة حفلاتكم ومناسباتكم الخاصة، تتسع لـ 70 شخص.</p>
+        </div>
+
+        <!-- الخدمة 6: ضيافة ليون -->
+        <div class="p-6 bg-[#2a2a2a] rounded-3xl text-center border-2 border-transparent hover:border-primary transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg">
+            <i class="pulse-icon fa-solid fa-bell-concierge fa-3x mx-auto mb-4 text-primary"></i>
+            <h3 class="text-xl font-bold mb-2">ضيافة ليون</h3>
+            <p class="text-gray-400 text-sm">فريقنا جاهز لخدمتكم وتلبية جميع متطلباتكم لضمان تجربة فندقية متكاملة.</p>
+        </div>
+
+    </div>
+</section>
         </main>
     </div>
 
