@@ -1,0 +1,77 @@
+/* ألوان مخصصة لنموذج تسجيل الدخول والتسجيل */
+/* لون ذهبي للنصوص والأزرار */
+.user-gold-text {
+    color: #B88E2F; /* لون ذهبي */
+}
+
+.user-gold-button {
+    background-color: #B88E2F; /* لون خلفية ذهبي */
+    transition: background-color 0.2s ease-in-out; /* تأثير تدرج عند التفاعل */
+}
+
+.user-gold-button:hover {
+    background-color: #a07d26; /* لون أظلم عند التمرير */
+}
+
+.user-gold-button:focus {
+    outline: none; /* إزالة الإطار الافتراضي */
+    box-shadow: 0 0 0 4px rgba(184, 142, 47, 0.5); /* ظل عند التركيز */
+}
+
+/* ملاحظة مهمة لمستخدمي Tailwind CSS v4 CDN:
+   إذا لم تعمل الأزرار أو الصندوق المربع بشكل صحيح،
+   يمكنك استخدام الأنماط التالية بدلاً من 'form-radio' أو 'form-checkbox'. */
+/* ملاحظة: قم بإلغاء تعطيل هذه الأنماط إذا كنت لا تستخدم إضافة النماذج في Tailwind */
+
+/* أنماط مخصصة للزر الدائري (Radio) */
+.user-form-radio {
+    appearance: none; /* إزالة النمط الافتراضي */
+    -webkit-appearance: none; /* دعم المتصفحات القديمة */
+    width: 20px; /* عرض الزر */
+    height: 20px; /* ارتفاع الزر */
+    border: 2px solid #ccc; /* حدود ملونة */
+    border-radius: 50%; /* شكل دائري */
+    outline: none; /* إزالة الإطار الافتراضي */
+    cursor: pointer; /* مؤشر الفأرة يتحول إلى إصبع */
+    vertical-align: middle; /* تحقق من التوازن مع النص */
+    flex-shrink: 0; /* منع التقلص في المصفوفات */
+}
+.user-form-radio:checked {
+    background-color: #3B82F6; /* لون عند الاختيار */
+    border-color: #3B82F6; /* لون الحدود عند الاختيار */
+}
+.user-form-radio:checked::before {
+    content: ''; /* إضافة عنصر فرعي */
+    display: block; /* عرض كعنصر منفرد */
+    width: 10px; /* عرض العنصر الفرعي */
+    height: 10px; /* ارتفاع العنصر الفرعي */
+    margin: 3px; /* تCentre العنصر */
+    border-radius: 50%; /* شكل دائري */
+    background: white; /* لون خلفية أبيض */
+}
+
+/* أنماط مخصصة للصندوق المربع (Checkbox) */
+.user-form-checkbox {
+    appearance: none; /* إزالة النمط الافتراضي */
+    -webkit-appearance: none; /* دعم المتصفحات القديمة */
+    width: 20px; /* عرض الصندوق */
+    height: 20px; /* ارتفاع الصندوق */
+    border: 2px solid #ccc; /* حدود ملونة */
+    border-radius: 4px; /* شكل مربع */
+    outline: none; /* إزالة الإطار الافتراضي */
+    cursor: pointer; /* مؤشر الفأرة يتحول إلى إصبع */
+    vertical-align: middle; /* تحقق من التوازن مع النص */
+    flex-shrink: 0; /* منع التقلص في المصفوفات */
+}
+.user-form-checkbox:checked {
+    background-color: #3B82F6; /* لون عند الاختيار */
+    border-color: #3B82F6; /* لون الحدود عند الاختيار */
+}
+.user-form-checkbox:checked::before {
+    content: '✔'; /* رمز الإشارة التأكيدية */
+    display: block; /* عرض كعنصر منفرد */
+    color: white; /* لون النص الأبيض */
+    font-size: 14px; /* حجم الخط */
+    line-height: 16px; /* تCentre الرمز */
+    text-align: center; /* تCentre النص */
+}
