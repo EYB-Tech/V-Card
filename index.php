@@ -83,12 +83,12 @@
             <section class="flex justify-center space-x-4 space-x-reverse mb-8">
     
     <!-- Instagram Icon -->
-    <a href="#" class="stagger-item p-3 w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg hover:bg-gradient-to-br from-purple-600 to-pink-500 transition-all duration-300 transform hover:-translate-y-1">
+    <a href="https://www.instagram.com/leon_tabuk/?igsh=MXJrZXFtdGJhNDh2OQ%3D%3D&utm_source=qr" class="stagger-item p-3 w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg hover:bg-gradient-to-br from-purple-600 to-pink-500 transition-all duration-300 transform hover:-translate-y-1">
         <i class="fa-brands fa-instagram fa-lg"></i>
     </a>
 
     <!-- TikTok Icon -->
-    <a href="#" class="stagger-item p-3 w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg hover:bg-[#ff0050] transition-all duration-300 transform hover:-translate-y-1">
+    <a href="https://www.tiktok.com/@leon_tabuk?_t=ZS-8xdy0IOxuuu&_r=1" class="stagger-item p-3 w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg hover:bg-[#ff0050] transition-all duration-300 transform hover:-translate-y-1">
         <i class="fa-brands fa-tiktok fa-lg"></i>
     </a>
 
@@ -107,7 +107,7 @@
             <section class="mb-12">
                 <div class="reveal-container mb-6"><h2 class="reveal-item text-2xl md:text-3xl font-bold">معلومات الحجز والتواصل</h2><div class="reveal-cover"></div></div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-envelope fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">البريد الإلكتروني</p><a href="mailto:info@leonresourt.com" class="font-semibold hover:text-primary transition" dir="ltr">info@leonresourt.com</a></div></div>
+                    <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-envelope fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">البريد الإلكتروني</p><a href="mailto:lionresort04@gmail.com" class="font-semibold hover:text-primary transition" dir="ltr">lionresort04@gmail.com</a></div></div>
                     <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-phone fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">للحجز والاستفسار</p><a href="tel:0539396664" class="font-semibold hover:text-primary transition" dir="ltr">0539396664</a></div></div>
                     <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-clock fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">أوقات العمل</p><p class="font-semibold">وقت الدخول 4 الخروج 10</p></div></div>
                     <div class="stagger-item flex items-center space-x-4 space-x-reverse"><div class="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg shrink-0"><i class="fa-solid fa-map-marker-alt fa-lg text-primary"></i></div><div><p class="text-sm text-gray-400">الموقع</p><p class="font-semibold">طريق المدينه - خلف محطة ساسكو</p></div></div>
@@ -136,10 +136,10 @@
         </iframe>
     </div>
 </section>        
-            <section class="fade-in mb-12">
+            <!-- <section class="fade-in mb-12">
                 <div class="reveal-container mb-6"><h2 class="reveal-item text-2xl md:text-3xl font-bold">موقعنا على الخريطة</h2><div class="reveal-cover"></div></div>
                 <div class="rounded-2xl overflow-hidden border-2 border-gray-700"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.644374376216!2d36.75428670000001!3d28.490254699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15a849e44b2ed73d%3A0x18a15b889aa1897d!2z2YTZitmI2YYg2LTYp9mE2YrYqQ!5e0!3m2!1sar!2seg!4v1751474605154!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            </section>
+            </section> -->
             
             <section class="fade-in mb-12">
                 <div class="reveal-container mb-6"><h2 class="reveal-item text-2xl md:text-3xl font-bold">معرض الصور</h2><div class="reveal-cover"></div></div>
